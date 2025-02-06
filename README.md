@@ -17,21 +17,23 @@ Python 3.7 or higher
 
 ## 📥 Installation
 
+```bash
 Clone the repository:
 git clone https://github.com/your_username/MAXSS.git
 cd MAXSS
 pip install -r requirements.txt
-
+```
 ## 🚀 Usage
 
 Run the help command:
 
+```bash
 python3 maxss.py -h
 
 Example usage:
 python3 maxss.py -l urls.txt -p payloads.txt -o output.txt -d 1 -v
 python3 maxss.py -l urls.txt -p payloads.txt --webhook "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
-
+```
 ## 📢 Discord Webhook Integration
 
 This tool supports Discord webhook notifications to alert you when an XSS vulnerability is found. Simply provide your webhook URL using the --webhook parameter.
