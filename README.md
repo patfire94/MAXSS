@@ -22,7 +22,7 @@ git clone https://github.com/your_username/MAXSS.git
 cd MAXSS
 pip install -r requirements.txt
 
-##🚀 Usage
+## 🚀 Usage
 
 Run the help command:
 
@@ -32,11 +32,11 @@ Example usage:
 python3 maxss.py -l urls.txt -p payloads.txt -o output.txt -d 1 -v
 python3 maxss.py -l urls.txt -p payloads.txt --webhook "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
 
-##📢 Discord Webhook Integration
+## 📢 Discord Webhook Integration
 
 This tool supports Discord webhook notifications to alert you when an XSS vulnerability is found. Simply provide your webhook URL using the --webhook parameter.
 
-##⚙️ Parameters
+## ⚙️ Parameters
 
 Parameter
 
@@ -66,13 +66,13 @@ Enable detailed output
 
 Discord webhook URL for sending alerts
 
-##⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 MAXSS is for ethical hacking and security testing purposes only. Ensure you have proper authorization before scanning any web applications. The developers are not responsible for any misuse of this tool.
 
 Modules specified in requirements.txt
-
-##⭐ Contribute & Support
+ 
+## ⭐ Contribute & Support
 
 Found a bug? Open an issue or submit a pull request.
 
