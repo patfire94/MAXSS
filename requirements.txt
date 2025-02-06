@@ -1,0 +1,11 @@
+aiohttp
+argparse
+asyncio
+colorama
+psutil
+pyfiglet
+requests
+selenium
+tqdm
+urllib3
+webdriver-manager
