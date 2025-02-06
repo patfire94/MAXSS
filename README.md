@@ -36,35 +36,19 @@ python3 maxss.py -l urls.txt -p payloads.txt --webhook "https://discord.com/api/
 
 This tool supports Discord webhook notifications to alert you when an XSS vulnerability is found. Simply provide your webhook URL using the --webhook parameter.
 
-## ⚙️ Parameters
+## Parameters
 
-Parameter
-
-Description
-
--l, --list
-
-File containing the list of URLs to scan (required)
-
--p, --payload
-
-File with test payloads (required)
-
--o, --output
-
-File to save vulnerable URLs (default: output.txt)
-
--d, --delay
-
-Delay in seconds between requests (default: 1.0)
-
--v, --verbose
-
-Enable detailed output
-
---webhook
-
-Discord webhook URL for sending alerts
+|--------------------------|----------------------------------------------------------------------------------|
+| Parameter                | Description                                                                      |
+|--------------------------|----------------------------------------------------------------------------------|
+| `-l`, `--list`           | File containing the list of URLs to scan (required)                              |
+| `-p`, `--payload`        | File with test payloads (required)                                               |
+| `-o`, `--output`         | File to save vulnerable URLs (default: `output.txt`)                             |
+| `-t`, `--timeout`        | Request timeout in seconds (default: `30`)                                       |
+| `-d`, `--delay`          | Response time in seconds suggesting vulnerability (default: `5.0`)               |
+| `-v`, `--verbose`        | Enable detailed output                                                           |
+| `--webhook`              | Discord webhook URL for sending alerts                                           |
+|--------------------------|----------------------------------------------------------------------------------|
 
 ## ⚠️ Disclaimer
 
