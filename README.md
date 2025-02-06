@@ -38,7 +38,6 @@ This tool supports Discord webhook notifications to alert you when an XSS vulner
 
 ## Parameters
 
-|--------------------------|----------------------------------------------------------------------------------|
 | Parameter                | Description                                                                      |
 |--------------------------|----------------------------------------------------------------------------------|
 | `-l`, `--list`           | File containing the list of URLs to scan (required)                              |
@@ -48,7 +47,7 @@ This tool supports Discord webhook notifications to alert you when an XSS vulner
 | `-d`, `--delay`          | Response time in seconds suggesting vulnerability (default: `5.0`)               |
 | `-v`, `--verbose`        | Enable detailed output                                                           |
 | `--webhook`              | Discord webhook URL for sending alerts                                           |
-|--------------------------|----------------------------------------------------------------------------------|
+
 
 ## ⚠️ Disclaimer
 
