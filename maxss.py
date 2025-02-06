@@ -71,7 +71,7 @@ async def test_xss(session, url, payload, webhook_url, verbose):
         await asyncio.sleep(2)
         alert = driver.switch_to.alert
         alert.accept()
-        message = f"[+] XSS Found: {url}"
+        message = f"[🛑💀 XSS FOUND! 💀🛑] {url}"
         print(f"{Fore.GREEN}{message}")
         await send_discord_notification(webhook_url, message)
         return url
