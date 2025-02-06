@@ -7,15 +7,15 @@ MAXSS – Automated XSS Scanner 🚀
 ✅ Discord Webhook Notifications – Get real-time alerts when an XSS is found.
 ✅ Custom Payload Injection – Load custom payloads from a file.
 
-##Scanner Banner
+## Scanner Banner
 
 This tool identifies Cross-Site Scripting (XSS) vulnerabilities in a provided list of URLs. It is intended for testing large lists of URLs for mass hunting in bug bounty and penetration testing.
 
-##🔧 Requirements
+## 🔧 Requirements
 
 Python 3.7 or higher
 
-##📥 Installation
+## 📥 Installation
 
 Clone the repository:
 git clone https://github.com/your_username/MAXSS.git
