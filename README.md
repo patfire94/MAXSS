@@ -1,12 +1,6 @@
 # MAXSS
 MAXSS – Automated XSS Scanner 🚀
 
-✨ Features
-✅ Automated XSS Detection – Scans URLs and parameters for XSS vulnerabilities.
-✅ Headless Chrome Automation – Uses Selenium to detect JavaScript-based XSS.
-✅ Discord Webhook Notifications – Get real-time alerts when an XSS is found.
-✅ Custom Payload Injection – Load custom payloads from a file.
-
 ## Scanner Banner
 
 This tool identifies Cross-Site Scripting (XSS) vulnerabilities in a provided list of URLs. It is intended for testing large lists of URLs for mass hunting in bug bounty and penetration testing.
