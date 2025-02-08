@@ -3,6 +3,8 @@ MAXSS – Automated XSS Scanner 🚀
 
 ## Scanner Banner
 
+![maxss_blur](https://github.com/user-attachments/assets/027185ea-e87e-4679-abd6-b7133a02df91)
+
 This tool identifies Cross-Site Scripting (XSS) vulnerabilities in a provided list of URLs. It is intended for testing large lists of URLs for mass hunting in bug bounty and penetration testing.
 
 ## 🔧 Requirements
