@@ -17,7 +17,6 @@ from threading import Lock
 import json
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
-# Inizializza colorama
 init(autoreset=True)
 
 BACKUP_FILE = "backup_xss.txt"
