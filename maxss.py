@@ -18,7 +18,7 @@ from threading import Lock
 import json
 from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
-# Inizializza colorama
+
 init(autoreset=True)
 
 BACKUP_FILE = "backup_xss.txt"
@@ -47,7 +47,7 @@ def create_driver(verbose=False):
     options.add_argument("--v=1")
 
     capabilities = DesiredCapabilities.CHROME
-    capabilities["goog:loggingPrefs"] = {"performance": "ALL"}  # Log delle richieste di rete
+    capabilities["goog:loggingPrefs"] = {"performance": "ALL"}  
     options.set_capability("goog:loggingPrefs", capabilities["goog:loggingPrefs"])
 
     service = Service(ChromeDriverManager().install())
