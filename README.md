@@ -14,10 +14,11 @@ Python 3.7 or higher
 ## 📥 Installation
 
 ```bash
-Clone the repository:
-git clone https://github.com/your_username/MAXSS.git
+git clone https://github.com/patfire94/MAXSS.git
 cd MAXSS
 pip install -r requirements.txt
+python -m venv .venv
+source .venv/bin/activate
 ```
 ## 🚀 Usage
 
@@ -25,8 +26,6 @@ Run the help command:
 
 ```bash
 python3 maxss.py -h
-
-Example usage:
 python3 maxss.py -l urls.txt -p payloads.txt -o output.txt -d 1 -v
 python3 maxss.py -l urls.txt -p payloads.txt --webhook "https://discord.com/api/webhooks/your-webhook-id/your-webhook-token"
 ```
